@@ -20,6 +20,8 @@ $lanList = New-WinUserLanguageList fo
 $lanList[0].InputMethodTips.Clear()
 $lanList[0].InputMethodTips.add('0438:00000438')
 Set-WinUserLanguageList -LanguageList $lanList -Force
+
+#Copy new region/language settings and apply to welcome screen and new users
 Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True
 
 #Sets the region formatting to faroese
