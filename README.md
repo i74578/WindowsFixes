@@ -1,6 +1,6 @@
 # WindowsFixes
 
-##This is a powershell script used to set faroese regional settings for Windows
+## This is a powershell script used to set faroese regional settings for Windows
 
 To Do:
 - [ ] Set region formatting to faroese
